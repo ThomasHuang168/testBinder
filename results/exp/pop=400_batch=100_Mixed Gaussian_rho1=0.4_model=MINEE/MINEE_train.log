@@ -1,0 +1,12 @@
+lr=0.0001
+batch_size=100
+hidden_size=100
+snapshot=[100, 200, 400, 800, 1600, 3200, 6400, 12800, 25600, 51200, 102400, 204800, 409600]
+iter_num=1000000
+model_name=MINEE
+prefix=/public/hphuang/experiments/pop=1e6/pop=400_batch=100_Mixed Gaussian_rho1=0.4_model=MINEE/
+ground_truth=0.010666643664011488
+verbose=False
+ref_window_scale=1
+ref_batch_factor=10
+load_dict=True

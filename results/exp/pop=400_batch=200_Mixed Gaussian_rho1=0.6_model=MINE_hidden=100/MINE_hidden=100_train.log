@@ -1,0 +1,13 @@
+lr=0.0001
+batch_size=200
+ma_rate=0.1
+hidden_size=100
+snapshot=[100, 200, 400, 800, 1600, 3200, 6400, 12800, 25600, 51200, 102400, 204800, 409600]
+iter_num=1000000
+model_name=MINE_hidden=100
+prefix=/public/hphuang/experiments/pop=1e6_5/pop=400_batch=200_Mixed Gaussian_rho1=0.6_model=MINE_hidden=100/
+ground_truth=0.05296675540458384
+verbose=False
+full_ref=False
+load_dict=True
+ref_factor=10
